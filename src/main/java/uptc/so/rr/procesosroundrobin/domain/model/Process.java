@@ -1,8 +1,5 @@
-package uptc.so.rr.procesosroundrobin.models;
+package uptc.so.rr.procesosroundrobin.domain.model;
 
-/**
- * @implNote This class represents a process
- */
 public class Process {
 
     private int burstTime;
@@ -97,4 +94,4 @@ public class Process {
     public void setNormalizedTurnAroundTime(double normalizedTurnAroundTime) {
         this.normalizedTurnAroundTime = normalizedTurnAroundTime;
     }
-}
+} 

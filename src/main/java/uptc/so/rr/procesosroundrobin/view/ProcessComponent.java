@@ -10,7 +10,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
-import uptc.so.rr.procesosroundrobin.models.Process;
+import uptc.so.rr.procesosroundrobin.domain.model.Process;
 
 /**
  * @implNote This class represents a process visually, so it's a visual component

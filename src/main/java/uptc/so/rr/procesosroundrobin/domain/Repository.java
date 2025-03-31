@@ -1,14 +1,14 @@
 package uptc.so.rr.procesosroundrobin.domain;
 
 import uptc.so.rr.procesosroundrobin.controllers.Controller;
-import uptc.so.rr.procesosroundrobin.models.Process;
+import uptc.so.rr.procesosroundrobin.domain.model.Process;
 
 import java.util.List;
 
 /**
  * @implNote This interface is used by the {@link Controller}
  */
-public interface Manager {
+public interface Repository {
 
     List<Process> getRRData(List<Process> processes, int quantum);
 
@@ -19,4 +19,4 @@ public interface Manager {
     double getNormalizedTurnAroundDeviation(List<Process> processes, double averageNormalizedTurnAroundTime);
 
     int getTotalTime(List<Process> processes);
-}
+} 

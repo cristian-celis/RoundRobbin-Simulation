@@ -6,10 +6,7 @@ package uptc.so.rr.procesosroundrobin;
  */
 public class Main {
 
-    /**
-     * Starts the JavaFX application.
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         App.main(args);
     }
